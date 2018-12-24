@@ -1,13 +1,39 @@
+//slidewrap edits
 .slidewrap{
     top: 20px;
-    width: auto;
-    background: linear-gradient(to right, #1c223b, #07103ac9  );
-    height: 607px;
+   width: auto;
+   // background: linear-gradient(to right, #1c223b, #07103ac9  );
+   // background-image: url('/shells_website/images/ai.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    height: 680px;
     margin:0,auto;
     margin-top:-20px;
     color: black;
-
-    .image-container{
+//circle border
+    .circle-border{
         
+        background-color: rgba(196, 241, 255, 0.8);
+        border-radius: 200px 200px 200px 200px;
+        width:300px;
+        height: 300px;
+        margin: auto;
+        margin-top:60px;
+//image adjust
+        .img-edit{
+            margin-left:-30px;
+        }
+    }
+  //heading design
+    .heading{
+        font-family: 'Exo', sans-serif;
+        font-size: 4.2em;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .sub-heading{
+        font-family: 'Exo', sans-serif;
+        margin: auto;
+        margin-top: 40px;
     }
 }

@@ -125,11 +125,37 @@ button[type=submit]:hover span {
 .slidewrap {
   top: 20px;
   width: auto;
-  background: -webkit-gradient(linear, left top, right top, from(#1c223b), to(#07103ac9));
-  background: linear-gradient(to right, #1c223b, #07103ac9);
-  height: 607px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 680px;
   margin: 0,auto;
   margin-top: -20px;
   color: black;
+}
+
+.slidewrap .circle-border {
+  background-color: rgba(196, 241, 255, 0.8);
+  border-radius: 200px 200px 200px 200px;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.slidewrap .circle-border .img-edit {
+  margin-left: -30px;
+}
+
+.slidewrap .heading {
+  font-family: 'Exo', sans-serif;
+  font-size: 4.2em;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.slidewrap .sub-heading {
+  font-family: 'Exo', sans-serif;
+  margin: auto;
+  margin-top: 40px;
 }
 /*# sourceMappingURL=style.css.map */
