@@ -1,89 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
 body {
   margin: 10%;
   color: white;
-  background: #111111;
   font-family: 'Roboto', sans-serif;
-}
-
-#nav-colors, #font-colors, #edges {
-  margin-top: 10px;
-}
-
-#nav-colors .btn, #font-colors .btn, #edges .btn {
-  display: inline-block;
-  padding: 10px;
-  margin: 0 5px;
-  border: 2px solid #111111;
-  -webkit-transition: 0.2s ease;
-  transition: 0.2s ease;
-}
-
-#nav-colors .btn:hover, #font-colors .btn:hover, #edges .btn:hover {
-  border: 2px solid white;
-}
-
-#nav-colors #pink {
-  background: -webkit-gradient(linear, left top, right top, from(#ff5858), to(#f857a6));
-  background: linear-gradient(to right, #ff5858, #f857a6);
-}
-
-#nav-colors #red {
-  background: -webkit-gradient(linear, left top, right top, from(#d31027), to(#ea384d));
-  background: linear-gradient(to right, #d31027, #ea384d);
-}
-
-#nav-colors #purple {
-  background: -webkit-gradient(linear, left top, right top, from(#41295a), to(#2f0743));
-  background: linear-gradient(to right, #41295a, #2f0743);
-}
-
-#nav-colors #blue {
-  background: -webkit-gradient(linear, left top, right top, from(#396afc), to(#2948ff));
-  background: linear-gradient(to right, #396afc, #2948ff);
-}
-
-#nav-colors #green {
-  background: -webkit-gradient(linear, left top, right top, from(#add100), to(#7b920a));
-  background: linear-gradient(to right, #add100, #7b920a);
-}
-
-#nav-colors #yellow {
-  background: -webkit-gradient(linear, left top, right top, from(#f7971e), to(#ffd200));
-  background: linear-gradient(to right, #f7971e, #ffd200);
-}
-
-#nav-colors #orange {
-  background: -webkit-gradient(linear, left top, right top, from(#e43a15), to(#e65245));
-  background: linear-gradient(to right, #e43a15, #e65245);
-}
-
-#font-colors #white {
-  background: white;
-}
-
-#font-colors #black {
-  background: black;
-}
-
-#edges #rounded {
-  background: black;
-}
-
-#edges #square {
-  background: black;
-  border-radius: 0px;
-}
-
-#edges #rounded:hover, #edges #square:hover {
-  color: white;
 }
 
 .navbar {
   border: 0;
   border-radius: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#ff5858), to(#f857a6));
-  background: linear-gradient(to right, #ff5858, #f857a6);
+  background: -webkit-gradient(linear, left top, right top, from(#2980b9), to(#3498db));
+  background: linear-gradient(to right, #2980b9, #3498db);
 }
 
 .navbar .nav li > a, .navbar .navbar-brand {
