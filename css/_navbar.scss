@@ -7,7 +7,7 @@ body {
 .navbar {
 	border: 0;
 	border-radius: 0;
-	background: linear-gradient(to right, #3498db, #2980b9);
+	background: linear-gradient(to right, #3586bd, #06588f);
 	.navbar-brand
 	{
 		max-height: 100px;
@@ -36,10 +36,28 @@ body {
 			}
 		}
 	}
+	
+	.navbar-header > .navbar-brand {
+		max-height: 100px;
+		width: auto;
+		background: transparent !important;
+		font-size: 18px;
+		transition: 0.2s ease-in-out;
+		&:hover{
+			background-color: rgba(255,255,255,0.2);
+			font-size:18px;
+			.link {
+				width: 100%;
+				padding: 0 10px 0 10px;
+				visibility: visible;
+				font-size: 14px;
+			}
+		}
+	}
 }
 	.link {
 		width: 0;
-		font-family: 'Roboto', sans-serif;
+		font-family: 'avenir light','Roboto', sans-serif;
 		transition: 0.2s ease-in-out;
 		visibility: hidden;
 		font-size: 0px;
