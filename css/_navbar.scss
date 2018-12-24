@@ -4,52 +4,8 @@
 body {
 	margin: 10%;
 	color: white;
-	background: #111111;
 	font-family: 'Roboto', sans-serif;
 }
-
-// Options
-#nav-colors, #font-colors, #edges {
-	margin-top: 10px;
-	.btn {
-		display: inline-block;
-		padding: 10px;
-		margin: 0 5px;
-		border: 2px solid #111111;
-		transition: 0.2s ease;
-		&:hover {
-			border: 2px solid white;
-		}
-	}
-}
-#nav-colors {
-	#pink {background: linear-gradient(to right, #ff5858, #f857a6);}
-	#red {background: linear-gradient(to right, #d31027, #ea384d);}
-	#purple {background: linear-gradient(to right, #41295a, #2f0743);}
-	#blue {background: linear-gradient(to right, #396afc, #2948ff);}
-	#green {background: linear-gradient(to right, #add100, #7b920a);}
-	#yellow {background: linear-gradient(to right, #f7971e, #ffd200);}
-	#orange {background: linear-gradient(to right, #e43a15, #e65245);}
-}
-#font-colors {
-	#white {background: white;}
-	#black {background: black;}
-}
-#edges {
-	#rounded {
-		background: black;
-	}
-	#square {
-		background: black;
-		border-radius: 0px;
-	}
-	#rounded, #square {
-		&:hover {
-			color: white;
-		}
-	}
-}
-
 // Navbar
 .navbar {
 	border: 0;
