@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
 // Body
 body {
 	margin: 10%;
@@ -10,7 +8,7 @@ body {
 .navbar {
 	border: 0;
 	border-radius: 0;
-	background: linear-gradient(to right, #ff5858, #f857a6);
+	background: linear-gradient(to right, #2980b9, #3498db);
 	.nav li > a, .navbar-brand {
 		max-height: 50px;
 		width: auto;
