@@ -1,0 +1,21 @@
+@media(max-width: 769px) {
+	.navbar {
+        ul
+        {
+            clear:both !important;
+            float:left !important;
+        }
+       
+		.link {
+			padding-left: 10px;
+			visibility: visible;
+			width: 100%;
+			font-size: 14px;
+		}
+		.navbar-brand {
+			.link {
+				visibility: hidden;
+			}
+		}
+	}
+}
