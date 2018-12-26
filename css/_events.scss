@@ -1,17 +1,30 @@
 div#events
 {
-    background-color:#34495e;
+    background: linear-gradient(to right,#e67e22, #d35400);
     width:100%;
     height:auto;
-    border-bottom-left-radius: 20px;
-    padding:1.5em;
+    border-bottom-left-radius: 3em;
+    padding:3em;
+    z-index:50 !important;
+    position: relative;
+    top:-60px;
+    h1
+    {
+      color:white;
+      font-weight: 900;
+    }
+    div.container
+    {
+        display:flex;
+        justify-content: space-around;
+        margin:12px auto;
+    }
     .card {
        
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         perspective: 500px;
       }
-      
       .content {
         width: 100%;
         height: 100%;
@@ -26,23 +39,40 @@ div#events
       }
       
       .front,
-      .back {
+      {
+        background: white;
+        // position: absolute;
+        height: 100%;
+        width: 100%;
+
+      }
+      .back,.front {
         position: absolute;
         height: 100%;
         width: 100%;
         background: white;
-        line-height: 300px;
-        color: #03446A;
-        text-align: center;
-        font-size: 60px;
         border-radius: 5px;
-        backface-visibility: hidden;
       }
       
       .back {
-        color: #03446A;
+        color: black;
+        
+        text-align: center;
+        backface-visibility: hidden;
         background-color: white;
         transform: rotateY( 180deg );
+        
+        padding:5px;
+        h1
+        {
+          color:black;
+            font-size:2em;
+        }
+       em
+        {
+            font-size:1.2em;
+            font-weight: 500;
+        }
       }
     
 }

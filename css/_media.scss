@@ -18,4 +18,16 @@
 			}
 		}
 	}
+	div#events div.container {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		flex-direction: column;
+		-ms-flex-pack: distribute;
+		align-items: center;
+		.card
+		{
+			margin-top:5px;
+			margin-bottom: 5px;
+		}
+	  }
 }
