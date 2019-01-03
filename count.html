@@ -1,0 +1,73 @@
+<div>
+
+<div id="sticky">
+       <!-- <div class="container"> -->
+ <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" >
+Kristu Jayanti Shells Event Count Down ...
+  <div id="timer">
+  <div id="days"></div>
+  <div id="hours"></div>
+  <div id="minutes"></div>
+  <div id="seconds"></div>
+</div>
+    <script src="new.js"></script>
+
+  <script src='my.js'></script>
+
+  
+
+    <script >
+      function makeTimer() {
+
+			var endTime = new Date("Feburary 27, 2019 17:00:00 PDT");			
+			var endTime = (Date.parse(endTime)) / 1000;
+
+			var now = new Date();
+			var now = (Date.parse(now) / 1000);
+
+			var timeLeft = endTime - now;
+
+			var days = Math.floor(timeLeft / 86400); 
+			var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
+			var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
+			var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
+
+			if (hours < "10") { hours = "0" + hours; }
+			if (minutes < "10") { minutes = "0" + minutes; }
+			if (seconds < "10") { seconds = "0" + seconds; }
+
+			$("#days").html(days + "<span>Days</span>");
+			$("#hours").html(hours + "<span>Hours</span>");
+			$("#minutes").html(minutes + "<span>Minutes</span>");
+			$("#seconds").html(seconds + "<span>Seconds</span>");		
+
+	}
+
+	setInterval(function() { makeTimer(); }, 1000);
+      //# sourceURL=pen.js
+    </script>
+
+
+
+  
+  
+
+  <script src="function.js"></script>
+ 
+</div>
+</div>
