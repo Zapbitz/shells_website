@@ -321,7 +321,7 @@ div#registration {
   padding-top: 3em !important;
   z-index: -4 !important;
   position: relative;
-  top: 210px;
+  top: 10px;
 }
 
 div#registration h2,
@@ -331,6 +331,19 @@ div#registration h1 {
 
 div#registration img {
   margin: 0px 35%;
+}
+
+.mainreg {
+  background: -webkit-gradient(linear, left top, right top, from(#f1c40f), to(#f39c12));
+  background: linear-gradient(to right, #f1c40f, #f39c12);
+  width: 100%;
+  height: 720px;
+  border-bottom-left-radius: 3em;
+  padding-top: 3em !important;
+  z-index: -4 !important;
+  position: relative;
+  top: 210px;
+  color: black;
 }
 
 div#contact {
