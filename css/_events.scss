@@ -2,7 +2,7 @@ div#events
 {
     background: linear-gradient(to right,#e67e22, #d35400);
     width:100%;
-    height:auto;
+    height:740px;
     border-bottom-left-radius: 3em;
     padding:3em;
     z-index:50 !important;
@@ -17,7 +17,7 @@ div#events
     {
         display:flex;
         justify-content: space-around;
-        margin:12px auto;
+        margin:20px auto;
     }
     .card {
        
