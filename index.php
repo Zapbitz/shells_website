@@ -20,7 +20,7 @@
     <title>SHELLS 2K19</title>
   </head>
   <body>
-<?php include("header.php"); ?><br><br><br>
+<?php include("header.php"); ?>
    <!-- shells wrapper slide-->
     <div class="container slidewrap">
        <div class="circle-border">
@@ -174,13 +174,7 @@
         </div>
     </div>
 
-    <div id="schedule">
-            <div class="container">
-                <h1 class="text-center text-white">SCHEDULE</h1>
-                <img src="images/icons/undraw_schedule_pnbk.svg" alt="shedule" width="30%">
-                <h2 class="text-center text-white">COMING SOON!</h2>
-            </div>
-    </div>
+    
 
        
 

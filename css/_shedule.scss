@@ -2,12 +2,12 @@ div#schedule
 {
     background: linear-gradient(to right,#1abc9c, #16a085);
     width:100%;
-    height:auto;
+    height:640px;
     border-bottom-left-radius: 3em;
     padding-top:3.5em !important;
     z-index:-2 !important;
     position: relative;
-    top:-150px;
+    
     h2,
     h1
     {
@@ -16,5 +16,8 @@ div#schedule
     img
     {
         margin:0px 35%;
+    }
+    .container{
+        height:640px;
     }
 }
